@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Entity">
+      <UniqueIdentifier>{3e71212a-c089-4c00-84dd-0a576e886ecd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{1f8fcb0f-91f2-4434-be69-fc31398790c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{4b403098-2183-458c-b95f-26954c9dfab4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Charactor.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="CharactorData.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleSystem.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="LogSystem.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="AttributeType.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="AttributeMultiplier.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.hpp">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="RootingTable.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BattleSystem.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="LogSystem.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Charactor.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="AttributeMultiplier.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="RootingTable.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+</Project>
